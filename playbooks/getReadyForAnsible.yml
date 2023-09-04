@@ -12,7 +12,7 @@
 
   tasks:
     - name: Create user
-      users:
+      ansible.builtin.user:
         name: "{{ user_name }}"
         state: present
         password: "{{ user_password }}"
