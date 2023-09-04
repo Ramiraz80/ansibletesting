@@ -1,7 +1,7 @@
 ---
 - hosts: all
   become: yes
-  become_user: ramiraz
+  become_user: root
   remote_user: ramiraz
   vars_prompt:
     - name: user_name
