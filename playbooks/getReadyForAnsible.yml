@@ -17,7 +17,7 @@
         name: "{{ user_name }}"
         state: present
         password: "{{ user_password | password_hash('sha512') }}"
-        groups: sudo
+        groups: wheel
         create_home: true
 
     - name: Create drop-in sudoers file
