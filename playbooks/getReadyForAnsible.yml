@@ -39,6 +39,8 @@
         path: /home/{{ user_name }}/.ssh
         state: directory
         mode: '0700'
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"
 
     - name: copy authorized_keys file
       copy:
