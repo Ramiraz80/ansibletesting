@@ -1,0 +1,8 @@
+
+controllers:
+  hosts:
+    ansibletesthost:
+
+clients:
+  hosts:
+    ansibletestclient:
