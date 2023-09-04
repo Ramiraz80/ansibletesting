@@ -42,7 +42,7 @@
 
     - name: copy authorized_keys file
       copy:
-        src: $PWD/sshkey/authorized_keys
+        src: authorized_keys
         dest: /home/{{ user_name }}/.ssh/authorized_keys
         owner: "{{ user_name }}"
         group: "{{ user_name }}"
