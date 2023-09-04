@@ -16,7 +16,7 @@
       ansible.builtin.user:
         name: "{{ user_name }}"
         state: present
-        password: "{{ user_password }}"
+        password: "{{ user_password | password_hash('sha512') }}"
         groups: sudo
         create_home: true
 
