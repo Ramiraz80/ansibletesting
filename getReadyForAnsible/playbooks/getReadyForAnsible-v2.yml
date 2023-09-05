@@ -5,7 +5,7 @@
   become_user: root
   remote_user: ramiraz
   vars_files:
-    - ./vars/vars-file.yml
+    - ../vars/vars-file.yml
 
   tasks:
     - name: Create user
