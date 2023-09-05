@@ -1,3 +1,6 @@
+## Playbook that creates a user for ansible, and sets password, and then copies authorized keys file in to place
+# run with: ansible-playbook playbooks/getReadyForAnsible-v2.yml --limit="NewServerThatNeedsToBeSetUp" --ask-vault-pass -kK
+
 ---
 - name: Get new server ready for use with ansible
   hosts: all
