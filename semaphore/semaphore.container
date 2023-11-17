@@ -8,10 +8,6 @@ Image=docker.io/semaphoreui/semaphore:latest
 PublishPort=3000:3000
 ContainerName=SemaphoreUI
 Network=semaphore.network
-<<<<<<< HEAD
-=======
-
->>>>>>> c298766 (unitfiles for semaphore and postgress)
 EnvironmentFile=semaphore.env
 
 [Service]
