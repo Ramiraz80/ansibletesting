@@ -1,0 +1,10 @@
+[Network]
+<<<<<<< HEAD
+Subnet=192.168.30.0/24
+Gateway=192.168.30.1
+Label=app=semaphoreui
+=======
+Subnet=xxx.xxx.xxx.x/xx  # network ipaddr/cidr
+Gateway=xxx.xxx.xxx.x   # defgw ipp addr
+Label=app=xxxxxxxx  #label that describes what network is used for
+>>>>>>> c298766 (unitfiles for semaphore and postgress)
