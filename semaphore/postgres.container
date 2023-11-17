@@ -5,11 +5,6 @@ Description=postgres
 [Container]
 Image=docker.io/postgres:14
 ContainerName=postgres
-<<<<<<< HEAD
-HostName=postgres
-=======
-Hostname=postgres
->>>>>>> c298766 (unitfiles for semaphore and postgress)
 
 Volume=/opt/podmnts/semaphore-postgres:/var/lib/postgresql/data:Z
 
