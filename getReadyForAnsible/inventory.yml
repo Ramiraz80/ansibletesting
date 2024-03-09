@@ -1,8 +1,4 @@
 
 controllers:
   hosts:
-    ansibletesthost:
-
-clients:
-  hosts:
-    ansibletestclient:
+    144.21.42.110:

@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 144.21.42.110
   become: yes
   become_user: root
   remote_user: ramiraz
